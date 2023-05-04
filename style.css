@@ -1,0 +1,151 @@
+body {
+    background-color: #1D1D1D;
+    margin: 0px;
+    color: white;
+    font-family: 'Montserrat';
+}
+nav {
+    background-color: #252525;
+    display: flex;
+    justify-content: space-around;
+}
+img[alt="01"] {
+    margin-right: 15rem;
+}
+ul.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li.listitem {
+    margin-right: 2rem;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+input[type="text"] {
+    background: transparent;
+    border-block-color: #050505;
+    padding-inline: 15px;
+    padding-block: 5px;
+    border-radius: 13px;
+}
+img[alt="002"] {
+    background: green;
+    padding: 9px;
+    border: 0px;
+    margin: 0px;
+}
+button {
+    background: none;
+    border: 0;
+}
+section.second {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.h001 h2 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+.h002 h2 {
+    width: 40rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 300;
+}
+.h003 h2 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+.h003 img {
+    width: 17rem;
+}
+section.third {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.third h1 {
+    font-size: 2vh;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 1rem;
+}
+.third h2 {
+    font-size: 0.75rem;
+}
+.third img {
+    width: 12rem;
+}
+div {
+    margin-right: 2rem;
+}
+section.fourth {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 2rem;
+    background-color: #222222;
+}
+.fourth h1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.fourth h2 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+input.in123 {
+    width: 45%;
+    background-color: #333333;
+    height: 1.5rem;
+    font-size: 1.5rem;
+    border: 0;
+}
+.butn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img[alt="003"] {
+    background: green;
+    padding: 9px;
+    border: 0px;
+    margin: 0px;
+} 
+.fifth {
+    margin-left: 6rem;
+}
+.fifth h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+@media screen and (max-width: 1250px) {
+    section.third {
+        display: flex;
+        flex-flow: wrap;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    nav {
+        display: block;
+    }
+    img[alt="01"] {
+        margin: 0px;
+    }
+    ul.list{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .h002 h2{
+        display: none;
+    }
+}
